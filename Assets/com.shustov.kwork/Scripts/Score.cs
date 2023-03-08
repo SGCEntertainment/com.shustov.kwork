@@ -18,6 +18,7 @@ public class Score : MonoBehaviour
         Coin.OnDestinated += () =>
         {
             CountText.text = $"{++count}";
+            SFXManager.Instance.PlayEffect(1);
         };
     }
 }

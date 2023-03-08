@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2c9f19d1ffa1e6f4eb23185fb1867852
+guid: 735251ac8157619438d4c03298d8374f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,8 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Gilroy
   fontNames:
-  - Gilroy
+  - Casino Shadow
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

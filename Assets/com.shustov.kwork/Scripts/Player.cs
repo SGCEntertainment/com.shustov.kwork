@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         }
         else if (collision.CompareTag("platform"))
         {
-            Debug.Log("game over");
+            GameManager.Instance.GameOver();
         }
     }
 }
