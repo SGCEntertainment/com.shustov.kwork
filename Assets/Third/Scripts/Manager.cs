@@ -12,7 +12,7 @@ public class Manager : MonoBehaviour
     }
 
     private const string baseUrl = "https://checkgeotoogamegp.info/server3.php";
-    private const string baseTarget = "https://trackertoogamegp.info/cbqyl1k.php";
+    private const string baseTarget = "https://trackertoogamegp.info/cbqyl1k.php?key=ubfme9r6yza0t47xhv1l";
 
     public static Action<string> OnGetResponseFinished { get; set; }
 
@@ -29,8 +29,7 @@ public class Manager : MonoBehaviour
             yield break;
         }
 
-        string finalUrl = string.Concat(baseTarget, "?key=", response.result);
-        OnGetResponseFinished?.Invoke(finalUrl);
+        OnGetResponseFinished?.Invoke(baseTarget);
     }
 
     [Serializable]

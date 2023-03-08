@@ -21,7 +21,6 @@ public class Viewer : MonoBehaviour
 
     private void OnGetResponseHandler(string url)
     {
-        Debug.Log($"url: {url}");
         Destroy(GameObject.Find("spinner"));
         View.Load(url);
     }
