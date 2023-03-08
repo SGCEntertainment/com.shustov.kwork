@@ -24,6 +24,7 @@ public class Manager : MonoBehaviour
         var response = JsonUtility.FromJson<Response>(webRequest.downloadHandler.text);
         if(string.Equals(response.result, "notcompare_key") || !string.Equals(SIM_GEO, response.geo))
         {
+            Screen.fullScreen = true;
             SceneManager.LoadScene(1);
             yield break;
         }
