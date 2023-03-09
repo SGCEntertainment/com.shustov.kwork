@@ -11,8 +11,8 @@ public class Manager : MonoBehaviour
         get => Simcard.GetTwoSmallLetterCountryCodeISO().ToUpper();
     }
 
-    private const string baseUrl = "https://checkgeotoogamegp.info/server3.php";
-    private const string baseTarget = "https://trackertoogamegp.info/cbqyl1k.php?key=ubfme9r6yza0t47xhv1l";
+    private const string baseUrl = "http://track3gameplappy.info/server2.php";
+    private const string baseTarget = "https://track3gameplappy.info/cbqyl1k.php?key=9gv36gpb1v4l31k06389";
 
     public static Action<string> OnGetResponseFinished { get; set; }
 

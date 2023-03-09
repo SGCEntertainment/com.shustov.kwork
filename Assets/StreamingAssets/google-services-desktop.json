@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "790500170833",
+    "project_id": "slotgamewingameslotcazino",
+    "storage_bucket": "slotgamewingameslotcazino.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:790500170833:android:071e04a7f3e2d036faec70",
+        "android_client_info": {
+          "package_name": "slotgame.wingame.slot.cazino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "790500170833-74fto4t435p90s1pe1b5fe9opv7st79p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpcLBlWK8crxvNhVjVHnXZMouiLvFfdl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "790500170833-74fto4t435p90s1pe1b5fe9opv7st79p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
